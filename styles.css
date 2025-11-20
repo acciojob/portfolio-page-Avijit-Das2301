@@ -1,2 +1,72 @@
-
 /* Your CSS Code here. */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f4fa;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 650px;
+  margin: 40px auto;
+  background: #fff;
+  box-shadow: 0 8px 32px rgba(40,40,100,0.08);
+  border-radius: 12px;
+  padding: 32px 28px;
+}
+
+img {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto 16px auto;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(80,80,180,0.09);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2.2em;
+  margin-bottom: 12px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  background: #1877F2;
+  color: #fff;
+  padding: 8px 0;
+  width: 180px;
+  border-radius: 8px;
+  margin: 0 auto 24px auto;
+  text-decoration: none;
+  transition: background 0.2s;
+  font-weight: 500;
+}
+
+a:hover {
+  background: #115fa4;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #444;
+  font-size: 1.3em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
